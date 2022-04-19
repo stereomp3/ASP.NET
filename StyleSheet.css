@@ -23,10 +23,12 @@ td{
     padding: 20px;
 }
 .middlepad {
+    background-color: #42C2FF;
     display: flex;
     justify-content: center; 
     align-items: center; 
 }
+
 .loginButton {
     border-radius: 5px;
 }
