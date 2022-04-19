@@ -14,6 +14,12 @@ function isEmpty() {
     if (user == '' || passwd == '') return false;
     return true;
 }
+function isSignedEmpty() {
+    var user = document.getElementById("signeduser").value;
+    var passwd = document.getElementById("signedpasswd").value;
+    if (user == '' || passwd == '') return false;
+    return true;
+}
 
 const sideNav = {}
 const button = {}
