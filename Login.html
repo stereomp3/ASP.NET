@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <i class="fa fa-bars" aria-hidden="true" onclick="sideNav.on()" style="left: 10px; top: 10px; position: fixed; font-size: 30px; z-index: 99; cursor: pointer;"></i>
+    <div class="sideNav">
+        <a style="cursor: pointer; font-size: 30; margin-top: 0; float: left; padding-right: 50%;"><i class="fa fa-times" aria-hidden="true" onclick="sideNav.off()"></i></a>
+        <a href="#login" id = "loginIcon" style="margin: 0;">login <i class="fa fa-sign-in" aria-hidden="true"></i></a> 
+        <a href="/logout" id = "signoutIcon" onclick="sideNav.logout()" style="margin: 0; display: none;">logout <i class="fa fa-sign-out"  aria-hidden="true" ></i></a>
+        <a href="#Home">Home</a>
+        <a href="#News">News</a>
+    </div>
+        <fieldset style="width:250px; margin:0 auto">
+            <legend>User Login</legend>
+
+            <div>
+                <label style="display: inline-block; width:70px;">User</label>
+                <input name="user" type="text" id="user" />
+            </div>
+            <div>
+                <label style="display: inline-block; width:70px;">password</label>
+                <input name="passwd" type="password" id="passwd" /> 
+            </div>
+            <div>
+                <input onclick="if(!isEmpty()) return false; __doPostBack('loginSQL','')" name="loginSQL" type="button" id="loginSQL" class="loginButton" value="Login" />
+            </div>
+            
+            
+        </fieldset>
+        
+
+    </form>
+
+    <script src="JavaScript.js"></script>
+</body>
+</html>
