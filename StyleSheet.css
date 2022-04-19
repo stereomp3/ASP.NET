@@ -1,0 +1,13 @@
+﻿body {
+    margin: 5%;
+}
+
+div {
+    padding-top: 10px;
+    display: none;
+    visibility: hidden;
+}
+
+.middlepad {
+    display: none;
+}
