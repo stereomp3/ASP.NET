@@ -70,35 +70,6 @@ td{
     text-align: center;
 }
 
-.dropdown {
-    position: absolute;
-    display: inline-block;
-}
-  
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    z-index: 999;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-#UserIcon:hover .dropdown-content {
-    display: block;
-}
-
 /* class post */
 h1 {
     font-size: 2em;
