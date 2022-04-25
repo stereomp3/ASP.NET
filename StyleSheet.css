@@ -47,7 +47,7 @@ td{
     top: 0;
     left: 0;
     background-color: #111;
-    overflow-x: hidden; /* 超出範圍就隱藏*/
+    /*overflow-x: hidden; /* 超出範圍就隱藏*/
 }
 .sideNav a {
     padding: 6px 8px 6px 16px;
