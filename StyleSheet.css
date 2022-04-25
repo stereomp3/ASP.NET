@@ -73,7 +73,7 @@ td{
 .dropdown {
     position: absolute;
     display: inline-block;
-  }
+}
   
 .dropdown-content {
     display: none;
@@ -95,9 +95,8 @@ td{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-#UserIcon:hover, .dropdown:hover .btn {
-    background-color: #0b7dda;
+#UserIcon:hover .dropdown-content {
+    display: block;
 }
 
 /* class post */
