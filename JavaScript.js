@@ -52,6 +52,6 @@ button.close = function(){
 
 function timer(id){
     setInterval(function() {
-        document.getElementById(id).innerHTML = Date.now()
+        document.getElementById(id).innerHTML = new Date()
     }, 1000);
 }
