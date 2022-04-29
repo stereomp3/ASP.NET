@@ -50,8 +50,8 @@ button.close = function(){
     parentObj.removeChild(miniC)
 }
 
-function timer(id){
+function timer(){
     setInterval(function() {
-        document.getElementById(id).innerHTML = new Date()
+        document.getElementById("timer").innerHTML = new Date()
     }, 1000);
 }
