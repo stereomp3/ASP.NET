@@ -49,3 +49,9 @@ button.close = function(){
     var parentObj = miniC.parentNode
     parentObj.removeChild(miniC)
 }
+
+function timer(id){
+    setInterval(function() {
+        document.getElementById(id).innerHTML = Date.now()
+    }, 1000);
+}
