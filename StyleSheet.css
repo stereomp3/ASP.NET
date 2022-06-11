@@ -79,8 +79,8 @@ input[type=password] {
     width: 500px;
 }
 input[type=button] {
-    background-color: #42C2FF;
-    color: ivory;
+    background-color: #ffffff;
+    color: rgb(49, 49, 49);
     padding: 10;
     margin: 10;
     border: 10;
