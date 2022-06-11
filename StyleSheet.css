@@ -63,7 +63,7 @@ td{
     float: left;
 }
 
-input[type=text],textarea {
+input[type=text],input[type=password],textarea {
     border: 1px solid #eee;
     border-top-color: #ddd;
     border-left-color: #ddd;
@@ -77,8 +77,6 @@ input[type=text] {
 }
 input[type=password] {
     width: 500px;
-    padding: 15px;
-    border: 0;
 }
 input[type=button] {
     background-color: #42C2FF;
