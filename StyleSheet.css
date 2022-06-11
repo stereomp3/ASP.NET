@@ -14,16 +14,6 @@ iframe{
 a{
     text-decoration: none;
 }
-
-tr{
-    margin: 10px;
-    border: 2px solid #42C2FF;
-}
-td{
-    margin: 10px;
-    border: 2px solid #EFFFFD;
-    padding: 20px;
-}
 .middlepad {
     display: flex;
     justify-content: center; 
