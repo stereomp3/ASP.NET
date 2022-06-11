@@ -1,4 +1,10 @@
-﻿iframe{
+﻿main{
+    width: 100%;
+    float: right;
+    text-align: center;
+    transition: 1s;
+}
+iframe{
     position: fixed;
     left: 0;
     top: 0;
@@ -55,9 +61,6 @@ td{
     display: block;
     white-space:nowrap;
     float: left;
-}
-.main{
-    text-align: center;
 }
 
 input[type=text],textarea {
