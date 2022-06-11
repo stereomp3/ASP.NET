@@ -27,14 +27,13 @@ const button = {}
 sideNav.off = function () {
     document.getElementsByClassName("sideNav")[0].style.width = "0"
     document.querySelector("main").style.width = "100%"
-    document.querySelector("iframe").style.width = "100%"
 }
 
 sideNav.on = function () {
     document.getElementsByClassName("sideNav")[0].style.width = "20%"
     document.querySelector("main").style.width = "80%"
-    document.querySelector("iframe").style.width = "80%"
 }
+
 
 
 sideNav.login = function(){
