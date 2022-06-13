@@ -15,10 +15,6 @@ function isEmpty() {
     return true;
 }
 
-function alertReturn(str){
-    alert(str)
-    return false
-}
 
 function isSignedEmpty() {
     var user = document.getElementById("signeduser").value;
