@@ -14,6 +14,12 @@ function isEmpty() {
     if (user == '' || passwd == '') return false;
     return true;
 }
+
+function alertReturn(str){
+    alert(str)
+    return false
+}
+
 function isSignedEmpty() {
     var user = document.getElementById("signeduser").value;
     var passwd = document.getElementById("signedpasswd").value;
